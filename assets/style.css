@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Oleo Script", system-ui;
+}
+
+body{
+    height: 100vh;
+    background-image: url("../assets/imagens/imgfundo.png");
+    background-size: cover;
+    background-position: center;
+    position: static;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 80px;
+}
+
+.contant{
+    background-color: #15B9FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+}
+
+.contant img{
+    cursor:pointer
+}
+
+.contant p{
+    font-size: 30px;
+    
+}
+
+.box button {
+    width: 300px;
+    height: 200px;
+    background-color: #15B9FF;
+    align-items: center;
+    margin: 20px 10px 10px 10px;
+    padding: 100px;
+    border-color: black;
+    border: 5;
+    border-radius: 15%  15%  15%  15% ;
+    padding: 15px 15px 50px;
+    cursor: pointer;
+    
+}
+
+.box h2 {
+    text-align: center;
+    padding: 10px
+    
+}
+
+.box p {
+    color:white;
+    text-decoration: underline;
+}
+
+.container {
+    padding-left: center;
+    display:flex;
+    justify-content:center ;
+    padding-top: 70px;
+}
+
+.cont {
+    flex-direction: column;
+}
+
+.cont h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.grafico img  {
+    width: 400px;
+    height: auto;
+    margin-left: 500px;
+}
+
+
+
+
